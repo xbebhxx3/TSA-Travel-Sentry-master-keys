@@ -8,17 +8,17 @@
 
 TSA 发布了一份官方声明，表明 [他们甚至不在乎我们已经这样做了](https://theintercept.com/2015/09/16/tsa-doesnt-really-care-luggage- locks-hacked/)，因为现在毫无意义的锁会影响防盗，而不是航空公司的安全。
 
-> **[!] 重要**：这些键尚未经过广泛测试，尽管我们确实有报告称许多 [确实有效](https://twitter.com/bernard/status/641662069427847168) 至少来自 [来源]（http://arstechnica.com/security/2015/09/video-3d-printed-tsa-travel-sentry-keys-really-do-open-tsa-locks/）。 006 可能永远无法工作，因为我们不确定“酒窝”的深度，而且消费级 3D 打印机可能无法完成如此精细的任务。
+> **[!] 重要**：这些键尚未经过广泛测试，尽管我们确实有报告称许多 [确实有效](https://twitter.com/bernard/status/641662069427847168) 至少来自 [来源]（http://arstechnica.com/security/2015/09/video-3d-printed-tsa-travel-sentry-keys-really-do-open-tsa-locks/）。 006 可能永远无法工作，因为我们不确定“坑”的深度，而且消费级 3D 打印机可能无法完成如此精细的任务。
 
 > 添加了 [MS3FGX](https://github.com/MS3FGX) 的密钥的粗短版本，这似乎 [仍然可以正常工作！](https://twitter.com/JimyLongs/status/641820527892414464)
 
 ### Thanks:
-- Special thanks to [@darksim905](https://twitter.com/darksim905) and [@irongeek_adc](https://twitter.com/irongeek_adc/status/640907196197404672) and some anonymous others who all sent us images and information surrounding these keys. Also, [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) for his key size ratios and issue management / advice.
+- 特别感谢 [@darksim905](https://twitter.com/darksim905) 和 [@irongeek_adc](https://twitter.com/irongeek_adc/status/640907196197404672) 以及一些匿名的其他人，他们都向我们发送了关于这些钥匙的图像和信息。 此外，[@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) 提供他的钥匙大小比率和问题管理/建议。
 
 
 3D TSA "Safe Skies" 主钥匙
 =========
-Safe Skies 按照自己的标准生产 TSA 批准的锁具，与 Travel Sentry 竞争，甚至起诉 Travel Sentry 侵犯专利权。 他们的市场份额比 Travel Sentry 小得多。 这些锁可以通过注意键槽旁边的“安全天空”字样来识别，位于与旅行哨兵“TSA00N”符号类似的位置。 所有可用信息都表明其整个系统仅存在一个覆盖/主密钥。 有了这些知识和一把大锤子（不，真的），[@darksim905](https://twitter.com/darksim905) 和 [Nite0wl](https://twitter.com/nite0wl_2600) 对万能钥匙进行了逆向工程 咬，并创建适合打印的 3D 文件。 他们于 2016 年 7 月在纽约市举行的第 11 届地球黑客大会上与 [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) 一起展示了他们的发现。
+Safe Skies 按照自己的标准生产 TSA 批准的锁具，与 Travel Sentry 竞争，甚至起诉 Travel Sentry 侵犯专利权。 他们的市场份额比 Travel Sentry 小得多。 这些锁可以通过注意键槽旁边的“安全天空”字样来识别，位于与Safe Skies“TSA00N”符号类似的位置。 所有可用信息都表明其整个系统仅存在一个覆盖/主密钥。 有了这些知识和一把大锤子（不，真的），[@darksim905](https://twitter.com/darksim905) 和 [Nite0wl](https://twitter.com/nite0wl_2600) 对万能钥匙进行了逆向工程，并创建适合打印的 3D 文件。 他们于 2016 年 7 月在纽约市举行的第 11 届地球黑客大会上与 [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) 一起展示了他们的发现。
 
 
 问题报告
