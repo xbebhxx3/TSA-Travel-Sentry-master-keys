@@ -1,64 +1,64 @@
 ![tsa](https://cloud.githubusercontent.com/assets/8536299/9762459/eaa8f8a0-5703-11e5-9c47-d89b8d40b115.jpg)
 
-3D TSA "Travel Sentry" master keys
+3D TSA "Travel Sentry" 主钥匙
 =========
-Recently, pictures of TSA master baggage keys got leaked by the Washington Post and also [PDFs](https://www.travelsentry.org/security/pdf/passkeys.pdf) hosted on TravelSentry's Website. This repo is a [reproduction attempt](https://twitter.com/InfoSecJesus/status/641662669758574593) 
+最近，《华盛顿邮报》和 TravelSentry 网站上托管的 [PDF](https://www.travelsentry.org/security/pdf/passkeys.pdf) 泄露了 TSA 主行李钥匙的图片。此 repo 是 [复制尝试](https://twitter.com/InfoSecJesus/status/641662669758574593)
 
-Security researchers have [long warned](http://www.crypto.com/masterkey.html) of the dangers of using [master-keyed locks](https://twitter.com/J0hnnyXm4s/status/642123709311008768)
+安全研究人员已经 [长期警告](http://www.crypto.com/masterkey.html) 使用 [master-keyed locks] (https://twitter.com/J0hnnyXm4s/status/642123709311008768) 的危险
 
-The TSA has issued an official statement making it known that [they don't even care that we've done this](https://theintercept.com/2015/09/16/tsa-doesnt-really-care-luggage-locks-hacked/), as the now-pointless locks affect theft prevention, not airline safety. 
+TSA 发布了一份官方声明，表明 [他们甚至不在乎我们已经这样做了](https://theintercept.com/2015/09/16/tsa-doesnt-really-care-luggage- locks-hacked/)，因为现在毫无意义的锁会影响防盗，而不是航空公司的安全。
 
-> **[!] Important**: These keys have not been widely-tested, though we do have reports that many [do work](https://twitter.com/bernard/status/641662069427847168) from at least [one source](http://arstechnica.com/security/2015/09/video-3d-printed-tsa-travel-sentry-keys-really-do-open-tsa-locks/). 006 May never work, as we're not sure of the depth of the "dimples," and also consumer-grade 3D printers may not be up to such finely-detailed tasks.
+> **[!] 重要**：这些键尚未经过广泛测试，尽管我们确实有报告称许多 [确实有效](https://twitter.com/bernard/status/641662069427847168) 至少来自 [来源]（http://arstechnica.com/security/2015/09/video-3d-printed-tsa-travel-sentry-keys-really-do-open-tsa-locks/）。 006 可能永远无法工作，因为我们不确定“酒窝”的深度，而且消费级 3D 打印机可能无法完成如此精细的任务。
 
-> Added the stubby versions of the keys by [MS3FGX](https://github.com/MS3FGX), which appear to [still work fine !](https://twitter.com/JimyLongs/status/641820527892414464)
+> 添加了 [MS3FGX](https://github.com/MS3FGX) 的密钥的粗短版本，这似乎 [仍然可以正常工作！](https://twitter.com/JimyLongs/status/641820527892414464)
 
 ### Thanks:
 - Special thanks to [@darksim905](https://twitter.com/darksim905) and [@irongeek_adc](https://twitter.com/irongeek_adc/status/640907196197404672) and some anonymous others who all sent us images and information surrounding these keys. Also, [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) for his key size ratios and issue management / advice.
 
 
-3D TSA "Safe Skies" master key
+3D TSA "Safe Skies" 主钥匙
 =========
-Safe Skies manufactures TSA-approved locks under their own standard, competing with Travel Sentry, and has even sued Travel Sentry for patent infringement. They have a much smaller market share than Travel Sentry. These locks can be identified by noting the words "Safe Skies" next to the keyway, in a similar location as the Travel Sentry "TSA00N" notations. All available information indicates only one override/master key exists for their entire system. Armed with this knowledge and a large hammer (no, really), [@darksim905](https://twitter.com/darksim905) and [Nite0wl](https://twitter.com/nite0wl_2600) reverse-engineered the master key bitting, and created 3D files suitable for printing. They presented their findings along with [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) at the 11th Hackers of Planet Earth conference in New York City, in July of 2016.
+Safe Skies 按照自己的标准生产 TSA 批准的锁具，与 Travel Sentry 竞争，甚至起诉 Travel Sentry 侵犯专利权。 他们的市场份额比 Travel Sentry 小得多。 这些锁可以通过注意键槽旁边的“安全天空”字样来识别，位于与旅行哨兵“TSA00N”符号类似的位置。 所有可用信息都表明其整个系统仅存在一个覆盖/主密钥。 有了这些知识和一把大锤子（不，真的），[@darksim905](https://twitter.com/darksim905) 和 [Nite0wl](https://twitter.com/nite0wl_2600) 对万能钥匙进行了逆向工程 咬，并创建适合打印的 3D 文件。 他们于 2016 年 7 月在纽约市举行的第 11 届地球黑客大会上与 [@j0hnnyXm4s](https://twitter.com/J0hnnyXm4s) 一起展示了他们的发现。
 
 
-PROBLEM REPORTING
+问题报告
 =========
 
-If you print a key and it doesn't work:
-	
-* First, use a caliper or other highly-accurate device to make sure the key you printed is accurate to the model. Humidity, expansion & ambient room temperature can have serious effects on print size accuracy.
+如果您打印密钥但它不起作用：
 
-* If it IS accurate, open an issue on the github, specify the problem file, and what problems exist (i.e. "Too wide for the keyway," "Too tall for the keyway," etc.).
+* 首先，使用卡尺或其他高精度设备确保您打印的钥匙与模型准确无误。湿度、膨胀和环境室温会对打印尺寸精度产生严重影响。
 
-* Upload a picture of your lock's keyway. 
+* 如果准确，请在 github 上打开一个问题，指定问题文件，以及存在哪些问题（即“键槽太宽”、“键槽太高”等）。
 
-* If you have the original keys for the lock, provide a measurement of the key from shoulder to tip, total height of the shoulders, and width. (i.e. X, Y & Z axes of the blade). Some keys only have one shoulder. 
+* 上传您锁的钥匙槽的图片。
+
+* 如果您有锁的原始钥匙，请提供钥匙从肩部到顶端的尺寸、肩部的总高度和宽度。 （即刀片的 X、Y 和 Z 轴）。有些钥匙只有一个肩部。
 
 
 
-LICENSE
+执照
 =========
-This project is released under the Creative Commons Attribution-NonCommercial 3.0 Unported License.
+这个项目是在知识共享署名-非商业性 3.0 未移植许可下发布的。
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/99/Cc-by-nc_icon.svg)
 
-You are free to:
+您可以自由：
 
-* Share — copy and redistribute the material in any medium or format
-* Adapt — remix, transform, and build upon the material
-* The licensor cannot revoke these freedoms as long as you follow the license terms.
+* 分享——以任何媒介或格式复制和重新分发材料
+* 适应——重新混合、转换和构建材料
+* 只要您遵守许可条款，许可方就不能撤销这些自由。
 
-Under the following terms:
+根据以下条款：
 
-* [!]Attribution — You must give appropriate credit to all contributors to this project, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* [!]Attribution — 您必须对本项目的所有贡献者给予适当的评价，提供许可证链接，并说明是否进行了更改。您可以以任何合理的方式这样做，但不得以任何方式暗示许可人认可您或您的使用。
 
-* [!]NonCommercial — You may not use the material for commercial purposes.
-No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+* [!]NonCommercial — 您不得将资料用于商业目的。
+没有额外的限制——您不得应用法律条款或技术措施来合法地限制他人做许可允许的任何事情。
 
-Notices:
+注意事项：
 
-You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+对于公共领域中的材料元素或适用的例外或限制允许您使用的情况，您不必遵守许可。
 
-No warranties are given.
+不提供任何保证。
 
-For the full text of this license, see [LICENSE.md](https://github.com/Xyl2k/TSA-Travel-Sentry-master-keys/blob/master/LICENSE.md).
+有关此许可证的全文，请参阅 [LICENSE.md](https://github.com/Xyl2k/TSA-Travel-Sentry-master-keys/blob/master/LICENSE.md)。
